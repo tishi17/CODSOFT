@@ -1,0 +1,179 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Hero Section Styles */
+#hero {
+  background-image: url('women.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  background-color: #ff6b6b;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* About Section Styles */
+#about {
+  background-color: #f9f9f9;
+  padding: 50px;
+}
+
+.about-content {
+  text-align: center;
+}
+
+.about-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 18px;
+}
+
+/* Services Section Styles */
+#services {
+  padding: 50px;
+}
+
+.services-content {
+  text-align: center;
+}
+
+.services-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.services-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services-content li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Testimonials Section Styles */
+#testimonials {
+  background-color: #f9f9f9;
+  padding: 50px;
+}
+
+.testimonials-content {
+  text-align: center;
+}
+
+.testimonials-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  margin-bottom: 40px;
+}
+
+.testimonial p:first-child {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonial p:last-child {
+  font-weight: bold;
+}
+
+/* Contact Section Styles */
+#contact {
+  padding: 50px;
+}
+
+.contact-content {
+  text-align: center;
+}
+
+.contact-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact-content p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form button {
+  background-color: #ff6b6b;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
